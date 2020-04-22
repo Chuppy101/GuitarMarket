@@ -1,0 +1,305 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/aamishanov/Study/DotNet/dotnet-labs/project/GuitarMarket/BLLTests/BLLTests.csproj": {}
+  },
+  "projects": {
+    "/home/aamishanov/Study/DotNet/dotnet-labs/project/GuitarMarket/BLL/BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/aamishanov/Study/DotNet/dotnet-labs/project/GuitarMarket/BLL/BLL.csproj",
+        "projectName": "BLL",
+        "projectPath": "/home/aamishanov/Study/DotNet/dotnet-labs/project/GuitarMarket/BLL/BLL.csproj",
+        "packagesPath": "/home/aamishanov/.nuget/packages/",
+        "outputPath": "/home/aamishanov/Study/DotNet/dotnet-labs/project/GuitarMarket/BLL/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/aamishanov/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/aamishanov/Study/DotNet/dotnet-labs/project/GuitarMarket/Data/Data.csproj": {
+                "projectPath": "/home/aamishanov/Study/DotNet/dotnet-labs/project/GuitarMarket/Data/Data.csproj"
+              },
+              "/home/aamishanov/Study/DotNet/dotnet-labs/project/GuitarMarket/Domain/Domain.csproj": {
+                "projectPath": "/home/aamishanov/Study/DotNet/dotnet-labs/project/GuitarMarket/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/aamishanov/Study/DotNet/dotnet-labs/project/GuitarMarket/BLLTests/BLLTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/aamishanov/Study/DotNet/dotnet-labs/project/GuitarMarket/BLLTests/BLLTests.csproj",
+        "projectName": "BLLTests",
+        "projectPath": "/home/aamishanov/Study/DotNet/dotnet-labs/project/GuitarMarket/BLLTests/BLLTests.csproj",
+        "packagesPath": "/home/aamishanov/.nuget/packages/",
+        "outputPath": "/home/aamishanov/Study/DotNet/dotnet-labs/project/GuitarMarket/BLLTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/aamishanov/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/aamishanov/Study/DotNet/dotnet-labs/project/GuitarMarket/BLL/BLL.csproj": {
+                "projectPath": "/home/aamishanov/Study/DotNet/dotnet-labs/project/GuitarMarket/BLL/BLL.csproj"
+              },
+              "/home/aamishanov/Study/DotNet/dotnet-labs/project/GuitarMarket/Data/Data.csproj": {
+                "projectPath": "/home/aamishanov/Study/DotNet/dotnet-labs/project/GuitarMarket/Data/Data.csproj"
+              },
+              "/home/aamishanov/Study/DotNet/dotnet-labs/project/GuitarMarket/Domain/Domain.csproj": {
+                "projectPath": "/home/aamishanov/Study/DotNet/dotnet-labs/project/GuitarMarket/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoFixture": {
+              "target": "Package",
+              "version": "[4.11.0, )"
+            },
+            "FlUnit.VS.TestAdapter": {
+              "target": "Package",
+              "version": "[0.3.0, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.10.3, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.6.0-preview-20200318-01, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.13.1, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            },
+            "NUnitTestAdapter": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/aamishanov/Study/DotNet/dotnet-labs/project/GuitarMarket/Data/Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/aamishanov/Study/DotNet/dotnet-labs/project/GuitarMarket/Data/Data.csproj",
+        "projectName": "Data",
+        "projectPath": "/home/aamishanov/Study/DotNet/dotnet-labs/project/GuitarMarket/Data/Data.csproj",
+        "packagesPath": "/home/aamishanov/.nuget/packages/",
+        "outputPath": "/home/aamishanov/Study/DotNet/dotnet-labs/project/GuitarMarket/Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/aamishanov/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/aamishanov/Study/DotNet/dotnet-labs/project/GuitarMarket/Domain/Domain.csproj": {
+                "projectPath": "/home/aamishanov/Study/DotNet/dotnet-labs/project/GuitarMarket/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0-preview.2.20159.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[5.0.0-preview.2.20159.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0-preview.2.20159.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[5.0.0-preview.2.20159.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools.DotNet": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.0-preview2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/aamishanov/Study/DotNet/dotnet-labs/project/GuitarMarket/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/aamishanov/Study/DotNet/dotnet-labs/project/GuitarMarket/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/home/aamishanov/Study/DotNet/dotnet-labs/project/GuitarMarket/Domain/Domain.csproj",
+        "packagesPath": "/home/aamishanov/.nuget/packages/",
+        "outputPath": "/home/aamishanov/Study/DotNet/dotnet-labs/project/GuitarMarket/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/aamishanov/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
